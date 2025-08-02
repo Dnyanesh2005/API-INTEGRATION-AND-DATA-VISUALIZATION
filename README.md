@@ -35,6 +35,7 @@ This mini-project was done as part of my internship task. The goal was to collec
 
 The output is a bar graph with the title:
 **"Top 10 Cryptocurrencies by Price (USD)"**
+![Image](https://github.com/user-attachments/assets/065f03f2-6944-4392-bac1-dbabb22a1b53)
 
 Even though I used data for 10 coins, only around 6 are clearly visible in the graph because of the layout. Still, the chart gives a good idea about which coins are high or low in price.
 
