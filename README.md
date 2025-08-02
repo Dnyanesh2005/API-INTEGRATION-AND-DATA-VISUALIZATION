@@ -12,34 +12,40 @@
 
 *MENTOR*: NELLA SANTOSH
 
-*DESCRIPTION*:
+*DESCRIPTION* :
+This mini-project was done as part of my internship task. The goal was to collect live data from a free API and show it using a simple chart in Python.
 
-## 📊 API Integration and Data Visualization
+### 🛠 Tools and Libraries Used
 
-This project is part of my internship task on **API Integration and Data Visualization using Python**. The objective was to fetch real-time data from a public API and represent it visually using `matplotlib`.
+* **Python** – For writing the code
+* **Google Colab** – To run and test the code online
+* **CoinGecko API** – To get real-time data about cryptocurrencies
+* **Matplotlib** – To create the bar chart
+* **GitHub** – To upload and share my work
 
-### 🔧 Tools & Technologies Used
-* **Python**: Core language used for scripting
-* **Google Colab**: Online editor for writing and executing code
-* **CoinGecko API**: Public API used to fetch cryptocurrency data
-* **Matplotlib**: Library used for plotting a bar chart
-* **GitHub**: Used for version control and project hosting
+### 💻 What I Did
 
-### 🧠 What I Did
-1. Fetched live data from the **CoinGecko API** to get the top 10 cryptocurrencies by price.
-2. Parsed the API response to extract coin names and their current prices.
-3. Plotted a **bar chart** using `matplotlib` to visualize the price comparison.
-4. Although data for all 10 coins was used, due to chart space and label overlap, only **6 bars were clearly visible** in the final output.
+1. I used the CoinGecko API to get the latest prices of the top 10 cryptocurrencies.
+2. After getting the data in JSON format, I filtered only the coin names and their prices.
+3. I created a bar graph using `matplotlib` to show the price comparison.
+4. The code worked for 10 coins, but only 6 bars were fully visible on the chart due to space and formatting issues.
+5. I saved the final notebook as a PDF, which included both the code and the graph, and uploaded everything to GitHub.
 
 ### 📈 Output
-The output shows a bar graph titled **"Top 10 Cryptocurrencies by Price (USD)"**. While the chart processes all 10 coins, only about 6 bars are fully visible due to size and scale limitations. The chart still effectively conveys the price gap between high-value and low-value coins.
 
-### 📌 What I Learn
-* Work with public REST APIs and understand JSON responses
-* Handle data extraction and visualization in Python
-* Deal with real-world issues like overlapping labels in charts
+The output is a bar graph with the title:
+**"Top 10 Cryptocurrencies by Price (USD)"**
 
-Overall, this project gave me practical experience in converting raw API data into meaningful visuals using simple and beginner-friendly tools.
+Even though I used data for 10 coins, only around 6 are clearly visible in the graph because of the layout. Still, the chart gives a good idea about which coins are high or low in price.
 
+### ✨ What I Learned
 
-Let me know if you also want a shorter one-paragraph version, or want to add a `requirements.txt` or screenshot to your repo.
+This task helped me understand:
+
+* How to use public APIs to get live data
+* How to read and work with JSON in Python
+* How to turn data into simple visuals
+* Some small issues like label overlap in charts
+
+This was a good beginner-level project that improved my confidence in using APIs and making charts in Python.
+
